@@ -22,7 +22,8 @@ SimplePlayer is a video player based on ijkPlayer which Support live and video.
 
         mSimplePlayer.setTitle("cctv-6");
         mSimplePlayer.play("http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8");
-        mSimplePlayer.live(true); //true if the video is live;
+	/**true if the video is live;*/
+        mSimplePlayer.live(true); 
         mSimplePlayer.start();
     }
 
