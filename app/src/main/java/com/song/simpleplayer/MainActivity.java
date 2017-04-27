@@ -23,6 +23,7 @@ public class MainActivity extends Activity {
         mSimplePlayer = (SimplePlayer) findViewById(R.id.simple_player);
 //        mSimplePlayer.setTitle("美食—教你做蛋糕");
 //        mSimplePlayer.play("http://ips.ifeng.com/video19.ifeng.com/video09/2016/07/25/34595-102-009-0533.mp4");
+
         mSimplePlayer.setTitle("cctv-6");
         mSimplePlayer.play("http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8");
         mSimplePlayer.live(true);
